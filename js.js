@@ -1,0 +1,1 @@
+let string = "let string = \"@\"; string = string.replace(\"@\", string.replace(/\\\\/g, \"\\\\\\\\\").replace(/\"/g, \"\\\\\\\"\")); alert(string);"; string = string.replace("@", string.replace(/\\/g, "\\\\").replace(/"/g, "\\\"")); alert(string);
